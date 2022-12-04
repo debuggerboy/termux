@@ -2,6 +2,9 @@
 # .bashrc for debuggerboy's Motorola #
 ######################################
 
+# Home Dir
+HOME=/data/data/com.termux/files/home
+
 # EDITOR
 export EDITOR="nvim"
 export SUDO_EDITOR="nvim"
