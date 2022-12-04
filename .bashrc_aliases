@@ -9,6 +9,6 @@ alias lsn='ls | cat -n'
 
 # additional aliases
 # include .bashrc if it exists
-if [ -f $HOME/.override_aliases ]; then
-    . $HOME/.override_aliases
+if [ -f $HOME/.config/termux/.override_aliases ]; then
+    . $HOME/.config/termux/.override_aliases
 fi
