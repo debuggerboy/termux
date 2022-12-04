@@ -1,0 +1,14 @@
+# basic aliases
+alias lm='ls | more'
+alias ll='ls -lFh'
+alias la='ls -alFh --group-directories-first'
+alias l1='ls -1F --group-directories-first'
+alias l1m='ls -1F --group-directories-first | more'
+alias lh='ls -ld .??*'
+alias lsn='ls | cat -n'
+
+# additional aliases
+# include .bashrc if it exists
+if [ -f $HOME/.override_aliases ]; then
+    . $HOME/.override_aliases
+fi
