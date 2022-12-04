@@ -17,6 +17,6 @@ PS1='\[\033[0;32m\]┌──(\[\033[1;34m\]${fake_user}@\h\[\033[0;32m\])-[\[\03
 \[\033[0;32m\]└─\[\033[1;34m\]\$\[\033[0m\] '
 
 # adding aliases from a file
-if [ -f $HOME/.bashrc_aliases ]; then
-    . $HOME/.bashrc_aliases
+if [ -f $HOME/.config/termux/.bashrc_aliases ]; then
+    . $HOME/.config/termux/.bashrc_aliases
 fi
